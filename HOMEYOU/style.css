@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* nav style start*/
+
+nav{
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 2rem;
+}
+
+ul#nav-menu li{
+    margin: auto;
+}
+
+div#nav-items{
+    display: flex;
+    gap: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div#nav-items img{
+    max-width: ;
+}
+
+ul#nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }  
+
+div#logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+div#logo h2{
+    margin: auto;
+}
+
+div#image{
+    background-color: #272727;
+}
+div#image img{
+    margin: 5px;
+}
+
+/* nav style end*/
+
+/* main content style start*/
+
+section{
+    width: 100%;
+    height: 850px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+section img{
+width: 50%;
+height: 100%;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+div#text-btn-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 27%;
+}
+
+button#btn-contact {
+    background-color: #272727;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    width: 12rem;
+    cursor: pointer;
+}
+
+button#more-about{
+    background-color: #ffffff;
+    text-decoration: underline;
+    border: none;
+    font-weight: 500;
+    color: #000000;
+    width: 12rem;
+    cursor: pointer;
+}
+
+/* main content style end*/
+
+/* design concept section style start */
+
+section#design{
+    display: flex;
+    flex-direction: row;
+}
+
+/* design concept section style end */
